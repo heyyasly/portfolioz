@@ -1,0 +1,219 @@
+/* Global
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+img {
+  position: relative;
+  max-width: 100%;
+}
+
+
+.logo {
+  position: relative;
+  max-width: 2.5em;
+}
+
+
+.yasly {
+    -webkit-clip-path: circle(49% at 50% 50%);
+    clip-path: circle(49% at 50% 50%);
+    max-width: 20%;
+}
+
+
+@media (min-width: 550px) {    
+.yasly {
+    -webkit-clip-path: circle(49% at 50% 50%);
+    clip-path: circle(49% at 50% 50%);
+    visibility: hidden;
+}}
+
+strong{
+    font-weight:600;
+}
+
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+
+@media (min-width: 550px) {    
+a:hover {
+  color: #000;
+}
+
+a img:hover {
+  opacity: .8;
+}
+
+.nav a:hover {
+    color: #000;
+    padding-bottom: .5em;
+    border-bottom: 1px solid #000;
+}}
+
+
+/* Construction Elements
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.intro {
+    margin-top: 5em;
+    margin-bottom: 1em;
+}
+
+
+@media (min-width: 550px) { 
+.intro {
+    margin-top: 5em;
+    margin-bottom: 4em;
+}}
+
+
+#home {
+    margin-top: 2.5em;
+}
+
+
+/* Larger than phablet */
+@media (min-width: 550px) {    
+#featured {
+    margin-bottom: 10em;
+}}
+
+
+
+/* Navigation: Featured
+–––––––––––––––––––––––––––––––––––––––––––––––––– */   
+
+
+.nav {
+    text-align: left;
+    vertical-align: text-top;
+    display: none;;
+}
+
+
+.nav li, .viewall li  {
+    list-style: none;
+}
+
+
+@media (min-width: 550px) { 
+.nav, .viewall {     display: block; margin-bottom: 1em;}    
+.nav li  { list-style: none; float:left; padding-right: 3.18em;}
+.nav-rt li  { list-style: none; float:left; padding-left: 3.18em;}
+
+.viewall li {list-style: none;}
+.viewall-button { padding-bottom: .5em; border-bottom: 1px solid #000;}
+}
+
+
+
+
+/* Work Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– */   
+
+.work-thumb {
+    margin-top: .5em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {    
+.work-thumb {
+    text-align: left;
+    }}
+
+.work-sort {
+    text-align: right;   
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+@media (min-width: 550px) {    
+.work-sort {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}}
+
+
+.work-sort a {
+    margin-left: 1em;
+    font-weight: 300;
+    font-size: 0em;
+    visibility: none;
+}
+
+@media (min-width: 550px) {    
+.work-sort a {
+    margin-left: 1em;
+    font-weight: 300;
+    font-size: 1em;
+}}
+
+.work-sort a:hover {
+    color: #000;
+    padding-bottom: .5em;
+    border-bottom: 1px solid #000;
+}
+
+
+.text_desc_title {
+    font-size: 0.618em;
+    letter-spacing: .2em;
+    line-height: 11.86px;
+    font-weight: 600;
+    margin-bottom: .8em;
+    text-transform: uppercase;
+}
+
+.text_desc {
+    margin-bottom: 5em;
+}
+
+.archives li{
+    margin-bottom: .1em;
+    font-size: 1.2em;
+    list-style: none;
+}
+
+
+@media (min-width: 550px) {
+.archives li{
+    margin-bottom: .2em;
+}
+.archives a:hover{
+    border-bottom: 1px solid #000;
+}}
+
+
+.workz img {
+    margin-bottom: 1em;
+}
+
+.project-jump {
+    background-color: #ffffff;
+    border: 1px solid #000;
+    height: 10em;
+    text-align: center;
+    vertical-align: text-bottom;
+    padding-top: 4em;
+
+}
+
+.project-jump:hover {
+    background-color: #ffffff;
+    border: 1px solid #fff;
+    height: 10em;
+    text-align: center;
+    vertical-align: text-bottom;
+    padding-top: 4em;
+    background-image: url(../images/airmax.png);
+    background-size: cover;
+}
+

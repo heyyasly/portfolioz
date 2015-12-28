@@ -1,0 +1,149 @@
+/* Headers
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Swish Swish
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+.header_swishswish{
+    width: 100%;
+    height: 20em;
+    background: url('../images/swishswish/header.png') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.header_swishswish {
+    width: 100%;
+    height: 45em;
+    background: url('../images/swishswish/header.png') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+    }}
+
+
+/* Hotpoints
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header_hotpoints{
+    width: 100%;
+    height: 20em;
+    background: url('../images/hotpoints/header.png') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.header_hotpoints{
+    width: 100%;
+    height: 45em;
+    background: url('../images/hotpoints/header.png') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+    }}
+
+
+/* Instagram
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header_instagram{
+    width: 100%;
+    height: 20em;
+    background: url('../images/instagram/header.png') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.header_instagram{
+    width: 100%;
+    height: 45em;
+    background: url('../images/instagram/header.png') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+    }}
+
+
+/* Nike NTC
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header_nikentc{
+    width: 100%;
+    height: 20em;
+    background: url('../images/nikentc/header.png') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.header_nikentc{
+    width: 100%;
+    height: 45em;
+    background: url('../images/nikentc/header.png') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+    }}
+
+
+/* Well Well
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header_wellwell{
+    width: 100%;
+    height: 20em;
+    background: url('../images/wellwell/header.png') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.header_wellwell{
+    width: 100%;
+    height: 45em;
+    background: url('../images/wellwell/header.png') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+    }}
+
+
+/* Chomp
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header_chomp{
+    width: 100%;
+    height: 20em;
+    background: url('../images/chomp/header.png') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.header_chomp{
+    width: 100%;
+    height: 45em;
+    background: url('../images/chomp/header.png') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+    }}
+
+/* Chomp
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header_facebookpaper{
+    width: 100%;
+    height: 20em;
+    background: url('../images/facebookpaper/header.png') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.header_facebookpaper{
+    width: 100%;
+    height: 45em;
+    background: url('../images/facebookpaper/header.png') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+    }}
+
