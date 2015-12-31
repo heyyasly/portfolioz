@@ -123,7 +123,7 @@ a img:hover {
 .mobile-toggle{
     width: 24px;
     height: 17px;
-    background: url('/images/burger.svg');
+    background: url('../images/burger.svg');
     position: absolute;
     top: 25px;
     right: 20px;
@@ -201,7 +201,7 @@ body.nav-open .mobile-logo{
   transform: translateX(-100vw);
 }
 body.nav-open .mobile-toggle{
-    background-image: url(/images/close.svg);
+    background-image: url(../images/close.svg);
     background-position-x: 5px;
 }
 .mobile-nav li{
@@ -328,24 +328,5 @@ body.work .four.columns{
     margin-bottom: 1em;
 }
 
-.project-jump {
-    background-color: #ffffff;
-    border: 1px solid #000;
-    height: 10em;
-    text-align: center;
-    vertical-align: text-bottom;
-    padding-top: 4em;
 
-}
-
-.project-jump:hover {
-    background-color: #ffffff;
-    border: 1px solid #fff;
-    height: 10em;
-    text-align: center;
-    vertical-align: text-bottom;
-    padding-top: 4em;
-    background-image: url(../images/airmax.png);
-    background-size: cover;
-}
 
