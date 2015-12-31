@@ -14,20 +14,6 @@ img {
 }
 
 
-.yasly {
-    -webkit-clip-path: circle(49% at 50% 50%);
-    clip-path: circle(49% at 50% 50%);
-    max-width: 20%;
-}
-
-
-@media (min-width: 550px) {    
-.yasly {
-    -webkit-clip-path: circle(49% at 50% 50%);
-    clip-path: circle(49% at 50% 50%);
-    visibility: hidden;
-}}
-
 strong{
     font-weight:600;
 }
@@ -51,6 +37,12 @@ a img:hover {
 }
 
 .nav a:hover {
+    color: #000;
+    padding-bottom: .5em;
+    border-bottom: 1px solid #000;
+}}
+
+.viewall {
     color: #000;
     padding-bottom: .5em;
     border-bottom: 1px solid #000;
@@ -93,11 +85,19 @@ a img:hover {
 .nav {
     text-align: left;
     vertical-align: text-top;
-    display: none;;
+    display: none;
+}
+
+.nav-rt li  { 
+    list-style: none; 
+    float:left; 
+    padding-left: 3.18em;
+    display: none;
 }
 
 
-.nav li, .viewall li  {
+
+.nav li,  .viewall li  {
     list-style: none;
 }
 
@@ -209,6 +209,7 @@ body.nav-open .mobile-toggle{
   .mobile-nav{
     visibility: hidden;
   }
+
 .viewall li {list-style: none;}
 .viewall-button { padding-bottom: .5em; border-bottom: 1px solid #000;}
   .mobile-header{
