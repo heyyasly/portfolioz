@@ -226,3 +226,24 @@
     background-size: cover;
     background-position: center center;
     }}
+
+
+/* Facebook Home
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header_facebookhome{
+    width: 100%;
+    height: 20em;
+    background: url('../images/facebookhome/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.header_facebookhome{
+    width: 100%;
+    height: 45em;
+    background: url('../images/facebookhome/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+    }}
