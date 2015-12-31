@@ -131,6 +131,14 @@ a img:hover {
     background-repeat: no-repeat;
     background-size: contain;
 }
+.mobile-tag{
+  width: 24px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+      transform: translateX(-46px);
+  transition: all .15s cubic-bezier(.25,.1,.25,1);
+}
 .mobile-nav{
   width: 100vw;
     height: 100vh;
@@ -145,6 +153,9 @@ a img:hover {
     margin-top: 50px;
     font-size: 20px;
 }
+body.nav-open{
+  overflow: hidden;
+}
 body.nav-open .container{
   transform: translateX(-100%);
   opacity: 0;
@@ -154,6 +165,9 @@ body.nav-open .mobile-nav{
 }
 body.nav-open .mobile-nav li{
   transform:translateX(0px);
+}
+body.nav-open .mobile-tag{
+   transform:translateX(0px); 
 }
 .container{
   transition: all .15s cubic-bezier(.25,.1,.25,1);
@@ -204,7 +218,7 @@ body.nav-open .mobile-toggle{
 @media (min-width: 730px) { 
 .nav, .viewall {     display: block; margin-bottom: 1em;}    
 .nav li  { list-style: none; float:left; padding-right: 3.18em;}
-  .nav-rt, .logo{ display: block;}
+.nav-rt, .logo{ display: block;}
 .nav-rt li  { list-style: none; float:left; padding-left: 3.18em;}
   .mobile-nav{
     visibility: hidden;
