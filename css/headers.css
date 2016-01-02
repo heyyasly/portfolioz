@@ -5,7 +5,6 @@
     z-index: -1;
     width: 100%;
     height: 15em;
-    background: url(../images/wellwell/header.png);
     background-size: cover;
     background-position: center center;
 }
@@ -16,12 +15,12 @@
     z-index: -1;
     width: 100%;
     height: 20em;
-    background: url(../images/wellwell/header.png);
     background-size: cover;
     background-position: center center;
-    }}
+}}
 
-.footerz .fade{
+
+.footerz, .fade{
     z-index: 1;
     position: relative;
     width: 100%;
@@ -41,6 +40,7 @@
     opacity: .1;
     text-align: center;
     }}
+
 
 .footerz_title{
     z-index: 2;
@@ -84,8 +84,10 @@
     font-weight: 300;
     }}
 
-/* Headers
+/* Headerz + Footerz
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
 
 /* Swish Swish
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -94,7 +96,7 @@
 .header_swishswish{
     width: 100%;
     height: 20em;
-    background: url('../images/swishswish/header.png') rgb(222, 222, 222);
+    background: url('../images/swishswish/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
 }
@@ -103,68 +105,42 @@
 .header_swishswish {
     width: 100%;
     height: 45em;
-    background: url('../images/swishswish/header.png') rgb(222, 222, 222);
+    background: url('../images/swishswish/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-    }}
+}}
 
-
-/* Hotpoints
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.header_hotpoints{
-    width: 100%;
-    height: 20em;
-    background: url('../images/hotpoints/header.png') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
-}
-
-@media (min-width: 550px) {  
-.header_hotpoints{
-    width: 100%;
-    height: 45em;
-    background: url('../images/hotpoints/header.png') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
-    }}
-
-
-/* Instagram
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.header_instagram{
-    width: 100%;
-    height: 20em;
-    background: url('../images/instagram/header.png') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
-}
-
-@media (min-width: 550px) {  
-.header_instagram{
-    width: 100%;
-    height: 45em;
-    background: url('../images/instagram/header.png') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
-    }}
-
-.footer .instagram{
-    position: absolute;
+.footerz_swishswish {
     z-index: -1;
     width: 100%;
-    height: 10em;
-    background: url('../images/instagram/header.png') rgb(222, 222, 222);
+    height: 15em;
+    background: url(../images/swishswish/header.jpg);
     background-size: cover;
     background-position: center center;
 }
 
+
 @media (min-width: 550px) {  
-.footer .instagram{
+.footerz_swishswish {
+    z-index: -1;
+    width: 100%;
     height: 20em;
-    }
-}
+    background: url(../images/swishswish/header.jpg);
+    background-size: cover;
+    background-position: center center;
+    }}
+
+@media (min-width: 550px) {  
+.footerz_swishswish:hover .fade{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .1;
+    text-align: center;
+}}
+
 
 
 /* Nike NTC
@@ -187,31 +163,309 @@
     background-position: center center;
     }}
 
-.footer .nikentc{
-    position: absolute;
+.footerz_nikentc {
     z-index: -1;
     width: 100%;
     height: 15em;
-    background: url('../images/nikentc/header.jpg') rgb(0, 0, 0);
+    background: url(../images/nikentc/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+@media (min-width: 550px) {  
+.footerz_nikentc {
+    z-index: -1;
+    width: 100%;
+    height: 20em;
+    background: url(../images/nikentc/header.jpg);
+    background-size: cover;
+    background-position: center center;
+    }}
+
+@media (min-width: 550px) {  
+.footerz_nikentc:hover .fade{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .1;
+    text-align: center;
+}}
+
+
+
+/* Hotpoints
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header_hotpoints{
+    width: 100%;
+    height: 20em;
+    background: url('../images/hotpoints/header.png') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
 }
 
 @media (min-width: 550px) {  
-.footer .nikentc{
-    height: 20em;
-    } 
-    
+.header_hotpoints{
+    width: 100%;
+    height: 45em;
+    background: url('../images/hotpoints/header.png') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+    }}
+
+.footerz_hotpoints {
+    z-index: -1;
+    width: 100%;
+    height: 15em;
+    background: url(../images/hotpoints/header.png);
+    background-size: cover;
+    background-position: center center;
 }
+
+
+@media (min-width: 550px) {  
+.footerz_hotpoints {
+    z-index: -1;
+    width: 100%;
+    height: 20em;
+    background: url(../images/hotpoints/header.png);
+    background-size: cover;
+    background-position: center center;
+}}
+
+
+@media (min-width: 550px) {  
+.footerz_hotpoints:hover .fade{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .1;
+    text-align: center;
+}}
+
+
+/* Instagram
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header_instagram{
+    width: 100%;
+    height: 20em;
+    background: url('../images/instagram/header.png') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.header_instagram{
+    width: 100%;
+    height: 45em;
+    background: url('../images/instagram/header.png') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+    }}
+
+.footerz_instagram {
+    z-index: -1;
+    width: 100%;
+    height: 15em;
+    background: url(../images/instagram/header.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+@media (min-width: 550px) {  
+.footerz_instagram {
+    z-index: -1;
+    width: 100%;
+    height: 20em;
+    background: url(../images/instagram/header.png);
+    background-size: cover;
+    background-position: center center;
+}}
+
+@media (min-width: 550px) {  
+.footerz_instagram:hover .fade{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .1;
+    text-align: center;
+}}
+
+
+/* Dropbox Paper
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header_dropboxpaper{
+    width: 100%;
+    height: 20em;
+    background: url('../images/dropboxpaper/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.header_dropboxpaper{
+    width: 100%;
+    height: 45em;
+    background: url('../images/dropboxpaper/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+    }}
+
+.footerz_dropboxpaper {
+    z-index: -1;
+    width: 100%;
+    height: 15em;
+    background: url(../images/dropboxpaper/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+@media (min-width: 550px) {  
+.footerz_dropboxpaper {
+    z-index: -1;
+    width: 100%;
+    height: 20em;
+    background: url(../images/dropboxpaper/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}}
+
+@media (min-width: 550px) {  
+.footerz_dropboxpaper:hover .fade{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .1;
+    text-align: center;
+}}
+
+
+/* Dropbox Paper
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header_dropbox{
+    width: 100%;
+    height: 20em;
+    background: url('../images/dropbox/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.header_dropbox{
+    width: 100%;
+    height: 45em;
+    background: url('../images/dropbox/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+    }}
+
+.footerz_dropbox {
+    z-index: -1;
+    width: 100%;
+    height: 15em;
+    background: url(../images/dropbox/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+@media (min-width: 550px) {  
+.footerz_dropbox {
+    z-index: -1;
+    width: 100%;
+    height: 20em;
+    background: url(../images/dropbox/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}}
+
+@media (min-width: 550px) {  
+.footerz_dropbox:hover .fade{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .1;
+    text-align: center;
+}}
+
+
+/* New Balance
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header_newbalance{
+    width: 100%;
+    height: 20em;
+    background: url('../images/newbalance/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.header_newbalance{
+    width: 100%;
+    height: 45em;
+    background: url('../images/newbalance/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+    }}
+
+.footerz_newbalance {
+    z-index: -1;
+    width: 100%;
+    height: 15em;
+    background: url(../images/newbalance/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+@media (min-width: 550px) {  
+.footerz_newbalance {
+    z-index: -1;
+    width: 100%;
+    height: 20em;
+    background: url(../images/newbalance/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}}
+
+@media (min-width: 550px) {  
+.footerz_newbalance:hover .fade{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .1;
+    text-align: center;
+}}
+
+
 
 
 /* Well Well
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.header_wellwell{
+.header_wellwell {
     width: 100%;
     height: 20em;
-    background: url('../images/wellwell/header.png') rgb(222, 222, 222);
+    background: url('../images/wellwell/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
 }
@@ -220,10 +474,708 @@
 .header_wellwell{
     width: 100%;
     height: 45em;
-    background: url('../images/wellwell/header.png') rgb(222, 222, 222);
+    background: url('../images/wellwell/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-    }}
+}}
+
+.footerz_wellwell {
+    z-index: -1;
+    width: 100%;
+    height: 15em;
+    background: url(../images/wellwell/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.footerz_wellwell {
+    z-index: -1;
+    width: 100%;
+    height: 20em;
+    background: url(../images/wellwell/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}}
+
+@media (min-width: 550px) {  
+.footerz_wellwell:hover .fade{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .1;
+    text-align: center;
+}}
+
+
+/* Reveal
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header_reveal {
+    width: 100%;
+    height: 20em;
+    background: url('../images/reveal/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.header_reveal{
+    width: 100%;
+    height: 45em;
+    background: url('../images/reveal/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}}
+
+.footerz_reveal {
+    z-index: -1;
+    width: 100%;
+    height: 15em;
+    background: url(../images/reveal/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.footerz_reveal {
+    z-index: -1;
+    width: 100%;
+    height: 20em;
+    background: url(../images/reveal/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}}
+
+@media (min-width: 550px) {  
+.footerz_reveal:hover .fade{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .1;
+    text-align: center;
+}}
+
+
+/* Zepp
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header_zepp {
+    width: 100%;
+    height: 20em;
+    background: url('../images/zepp/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.header_zepp{
+    width: 100%;
+    height: 45em;
+    background: url('../images/zepp/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}}
+
+.footerz_zepp {
+    z-index: -1;
+    width: 100%;
+    height: 15em;
+    background: url(../images/zepp/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.footerz_zepp {
+    z-index: -1;
+    width: 100%;
+    height: 20em;
+    background: url(../images/zepp/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}}
+
+@media (min-width: 550px) {  
+.footerz_zepp:hover .fade{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .1;
+    text-align: center;
+}}
+
+
+/* Evolution Fresh
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header_evolutionfresh {
+    width: 100%;
+    height: 20em;
+    background: url('../images/evolutionfresh/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.header_evolutionfresh{
+    width: 100%;
+    height: 45em;
+    background: url('../images/evolutionfresh/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}}
+
+.footerz_evolutionfresh {
+    z-index: -1;
+    width: 100%;
+    height: 15em;
+    background: url(../images/evolutionfresh/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.footerz_evolutionfresh {
+    z-index: -1;
+    width: 100%;
+    height: 20em;
+    background: url(../images/evolutionfresh/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}}
+
+@media (min-width: 550px) {  
+.footerz_evolutionfresh:hover .fade{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .1;
+    text-align: center;
+}}
+
+
+/* Chaotic Moon
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header_chaoticmoon {
+    width: 100%;
+    height: 20em;
+    background: url('../images/chaoticmoon/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.header_chaoticmoon{
+    width: 100%;
+    height: 45em;
+    background: url('../images/chaoticmoon/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}}
+
+.footerz_chaoticmoon {
+    z-index: -1;
+    width: 100%;
+    height: 15em;
+    background: url(../images/chaoticmoon/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.footerz_chaoticmoon {
+    z-index: -1;
+    width: 100%;
+    height: 20em;
+    background: url(../images/chaoticmoon/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}}
+
+@media (min-width: 550px) {  
+.footerz_chaoticmoon:hover .fade{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .1;
+    text-align: center;
+}}
+
+
+
+
+/* Anica + Jonpaul
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header_anicajonpaul {
+    width: 100%;
+    height: 20em;
+    background: url('../images/anicajonpaul/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.header_anicajonpaul{
+    width: 100%;
+    height: 45em;
+    background: url('../images/anicajonpaul/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}}
+
+.footerz_anicajonpaul {
+    z-index: -1;
+    width: 100%;
+    height: 15em;
+    background: url(../images/anicajonpaul/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.footerz_anicajonpaul {
+    z-index: -1;
+    width: 100%;
+    height: 20em;
+    background: url(../images/anicajonpaul/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}}
+
+@media (min-width: 550px) {  
+.footerz_anicajonpaul:hover .fade{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .1;
+    text-align: center;
+}}
+
+
+/* Color
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header_color {
+    width: 100%;
+    height: 20em;
+    background: url('../images/color/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.header_color{
+    width: 100%;
+    height: 45em;
+    background: url('../images/color/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}}
+
+.footerz_color {
+    z-index: -1;
+    width: 100%;
+    height: 15em;
+    background: url(../images/color/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.footerz_color {
+    z-index: -1;
+    width: 100%;
+    height: 20em;
+    background: url(../images/color/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}}
+
+@media (min-width: 550px) {  
+.footerz_color:hover .fade{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .1;
+    text-align: center;
+}}
+
+
+
+/* Facebook
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header_facebook {
+    width: 100%;
+    height: 20em;
+    background: url('../images/facebook/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.header_facebook{
+    width: 100%;
+    height: 45em;
+    background: url('../images/facebook/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}}
+
+.footerz_facebook {
+    z-index: -1;
+    width: 100%;
+    height: 15em;
+    background: url(../images/facebook/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.footerz_facebook {
+    z-index: -1;
+    width: 100%;
+    height: 20em;
+    background: url(../images/facebook/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}}
+
+@media (min-width: 550px) {  
+.footerz_facebook:hover .fade{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .1;
+    text-align: center;
+}}
+
+
+
+/* Found Objects
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header_foundobjects {
+    width: 100%;
+    height: 20em;
+    background: url('../images/foundobjects/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.header_foundobjects{
+    width: 100%;
+    height: 45em;
+    background: url('../images/foundobjects/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}}
+
+.footerz_foundobjects {
+    z-index: -1;
+    width: 100%;
+    height: 15em;
+    background: url(../images/foundobjects/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.footerz_foundobjects {
+    z-index: -1;
+    width: 100%;
+    height: 20em;
+    background: url(../images/foundobjects/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}}
+
+@media (min-width: 550px) {  
+.footerz_foundobjects:hover .fade{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .1;
+    text-align: center;
+}}
+
+
+/* Dbln Co.
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header_dbln {
+    width: 100%;
+    height: 20em;
+    background: url('../images/dbln/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.header_dbln{
+    width: 100%;
+    height: 45em;
+    background: url('../images/dbln/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}}
+
+.footerz_dbln {
+    z-index: -1;
+    width: 100%;
+    height: 15em;
+    background: url(../images/dbln/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.footerz_dbln {
+    z-index: -1;
+    width: 100%;
+    height: 20em;
+    background: url(../images/dbln/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}}
+
+@media (min-width: 550px) {  
+.footerz_dbln:hover .fade{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .1;
+    text-align: center;
+}}
+
+
+/* Rare Glaze
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header_rareglaze {
+    width: 100%;
+    height: 20em;
+    background: url('../images/rareglaze/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.header_rareglaze{
+    width: 100%;
+    height: 45em;
+    background: url('../images/rareglaze/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}}
+
+.footerz_rareglaze {
+    z-index: -1;
+    width: 100%;
+    height: 15em;
+    background: url(../images/rareglaze/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.footerz_rareglaze {
+    z-index: -1;
+    width: 100%;
+    height: 20em;
+    background: url(../images/rareglaze/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}}
+
+@media (min-width: 550px) {  
+.footerz_rareglaze:hover .fade{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .1;
+    text-align: center;
+}}
+
+
+/* Kelvin
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header_kelvin {
+    width: 100%;
+    height: 20em;
+    background: url('../images/kelvin/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.header_kelvin{
+    width: 100%;
+    height: 45em;
+    background: url('../images/kelvin/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}}
+
+.footerz_kelvin {
+    z-index: -1;
+    width: 100%;
+    height: 15em;
+    background: url(../images/kelvin/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.footerz_kelvin {
+    z-index: -1;
+    width: 100%;
+    height: 20em;
+    background: url(../images/kelvin/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}}
+
+@media (min-width: 550px) {  
+.footerz_kelvin:hover .fade{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .1;
+    text-align: center;
+}}
+
+
+/* Annalemma
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header_annalemma {
+    width: 100%;
+    height: 20em;
+    background: url('../images/annalemma/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.header_annalemma{
+    width: 100%;
+    height: 45em;
+    background: url('../images/annalemma/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}}
+
+.footerz_annalemma {
+    z-index: -1;
+    width: 100%;
+    height: 15em;
+    background: url(../images/annalemma/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.footerz_annalemma {
+    z-index: -1;
+    width: 100%;
+    height: 20em;
+    background: url(../images/annalemma/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}}
+
+@media (min-width: 550px) {  
+.footerz_annalemma:hover .fade{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .1;
+    text-align: center;
+}}
+
+
+
+/* Facebook Home
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header_facebookhome {
+    width: 100%;
+    height: 20em;
+    background: url('../images/facebookhome/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.header_facebookhome{
+    width: 100%;
+    height: 45em;
+    background: url('../images/facebookhome/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}}
+
+.footerz_facebookhome {
+    z-index: -1;
+    width: 100%;
+    height: 15em;
+    background: url(../images/facebookhome/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.footerz_facebookhome {
+    z-index: -1;
+    width: 100%;
+    height: 20em;
+    background: url(../images/facebookhome/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}}
+
+@media (min-width: 550px) {  
+.footerz_facebookhome:hover .fade{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .1;
+    text-align: center;
+}}
 
 
 /* Chomp
@@ -232,7 +1184,7 @@
 .header_chomp{
     width: 100%;
     height: 20em;
-    background: url('../images/chomp/header.png') rgb(222, 222, 222);
+    background: url('../images/chomp/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
 }
@@ -241,15 +1193,47 @@
 .header_chomp{
     width: 100%;
     height: 45em;
-    background: url('../images/chomp/header.png') rgb(222, 222, 222);
+    background: url('../images/chomp/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-    }}
+}}
+
+.footerz_chomp {
+    z-index: -1;
+    width: 100%;
+    height: 15em;
+    background: url(../images/chomp/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.footerz_chomp {
+    z-index: -1;
+    width: 100%;
+    height: 20em;
+    background: url(../images/chomp/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}}
+
+@media (min-width: 550px) {  
+.footerz_chomp:hover .fade{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .1;
+    text-align: center;
+}}
+
+
 
 /* Facebook Paper
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.header_facebookpaper{
+.header_facebookpaper {
     width: 100%;
     height: 20em;
     background: url('../images/facebookpaper/header.jpg') rgb(222, 222, 222);
@@ -264,28 +1248,40 @@
     background: url('../images/facebookpaper/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-    }}
+}}
 
-.footer .facebookpaper{
-    position: absolute;
+.footerz_facebookpaper {
     z-index: -1;
-    opacity: .25;
     width: 100%;
-    height: 10em;
-    background: url('../images/facebookpaper/header.jpg') rgb(0, 0, 0);
+    height: 15em;
+    background: url(../images/facebookpaper/header.jpg);
     background-size: cover;
     background-position: center center;
 }
 
 @media (min-width: 550px) {  
-.footer .facebookpaper{
+.footerz_facebookpaper {
+    z-index: -1;
+    width: 100%;
     height: 20em;
-    }
-.facebookpaper:hover {
-    height: 20em;
-    opacity: .5;
-    }
-}
+    background: url(../images/facebookpaper/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}}
+
+@media (min-width: 550px) {  
+.footerz_facebookpaper:hover .fade{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .1;
+    text-align: center;
+}}
+
+
+
 
 /* Steven Taylor
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -307,6 +1303,28 @@
     background-position: center center;
     }}
 
+.footerz_steventaylor {
+    z-index: -1;
+    width: 100%;
+    height: 15em;
+    background: url(../images/steventaylor/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+@media (min-width: 550px) {  
+.footerz_steventaylor {
+    z-index: -1;
+    width: 100%;
+    height: 20em;
+    background: url(../images/steventaylor/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}}
+
+
+
 /* Olderbrother
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -326,6 +1344,27 @@
     background-size: cover;
     background-position: center center;
     }}
+
+.footerz_olderbrother {
+    z-index: -1;
+    width: 100%;
+    height: 15em;
+    background: url(../images/olderbrother/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+@media (min-width: 550px) {  
+.footerz_olderbrother {
+    z-index: -1;
+    width: 100%;
+    height: 20em;
+    background: url(../images/olderbrother/header.jpg);
+    background-size: cover;
+    background-position: center center;
+    }}
+
 
 /* Fiction
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -347,6 +1386,27 @@
     background-position: center center;
     }}
 
+.footerz_fiction {
+    z-index: -1;
+    width: 100%;
+    height: 15em;
+    background: url(../images/fiction/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+@media (min-width: 550px) {  
+.footerz_fiction {
+    z-index: -1;
+    width: 100%;
+    height: 20em;
+    background: url(../images/fiction/header.jpg);
+    background-size: cover;
+    background-position: center center;
+    }}
+
+
 /* Fortune
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -365,7 +1425,38 @@
     background: url('../images/fortune/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
-    }}
+}}
+
+.footerz_fortune {
+    z-index: -1;
+    width: 100%;
+    height: 15em;
+    background: url(../images/fortune/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+@media (min-width: 550px) {  
+.footerz_fortune {
+    z-index: -1;
+    width: 100%;
+    height: 20em;
+    background: url(../images/fortune/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}}
+
+@media (min-width: 550px) {  
+.footerz_fortune:hover .fade{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .1;
+    text-align: center;
+}}
 
 
 /* Facebook Home
