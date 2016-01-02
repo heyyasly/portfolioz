@@ -1,49 +1,88 @@
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.footer{
-    position: relative;
-    z-index: 2;
-    opacity: 1;
-    text-align: center;
-    color: #fff;
+
+.footerz {
+    z-index: -1;
+    width: 100%;
+    height: 15em;
+    background: url(../images/wellwell/header.png);
+    background-size: cover;
+    background-position: center center;
 }
 
 
-
-
-.footer .darken{
-    position: absolute;
-    z-index: 1;
-    opacity: .5;
+@media (min-width: 550px) {  
+.footerz {
+    z-index: -1;
     width: 100%;
     height: 20em;
-    background-color: #000;
+    background: url(../images/wellwell/header.png);
+    background-size: cover;
+    background-position: center center;
+    }}
+
+.footerz .fade{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .5;
+    text-align: center;
 }
 
+@media (min-width: 550px) {  
+.footerz:hover .fade{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .1;
+    text-align: center;
+    }}
 
-.footer .darken:hover  {
-    opacity: .8;
-    }
-
-
-.footer_next {
-    z-index: 3;
-    font-size: 1.2em;
-    line-height: 2.25em;
-    font-weight: 300;
+.footerz_title{
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    line-height: 1.5em;
+    color: #fff;
+    background-color: transparent;
     opacity: 1;
+    top: 30%;
+    margin: auto;
 }
 
-.footer_project {
-    z-index: 4;
-    font-size: 2.2em;
-    line-height: 2.25em;
-    font-weight: 300;
+.footerz_project{
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    line-height: 2.5em;
+    color: #fff;
+    background-color: transparent;
     opacity: 1;
-
+    top: 40%;
+    margin: auto;
+    margin-top: .25em;
+    font-size: 2.1em;
+    font-weight: 300;
 }
 
-
+@media (min-width: 550px) {  
+.footerz_project{
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    line-height: 2.5em;
+    color: #fff;
+    background-color: transparent;
+    opacity: 1;
+    top: 45%;
+    margin: auto;
+    font-size: 2.4em;
+    font-weight: 300;
+    }}
 
 /* Headers
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
