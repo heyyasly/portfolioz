@@ -215,22 +215,41 @@ body.nav-open .mobile-toggle{
     top: 2px;
     right: 0;
 }
-@media (min-width: 730px) { 
-.nav, .viewall {     display: block; margin-bottom: 1em;}    
-.nav li  { list-style: none; float:left; padding-right: 3.18em;}
-.nav-rt, .logo{ display: block;}
-.nav-rt li  { list-style: none; float:left; padding-left: 3.18em;}
-  .mobile-nav{
+@media (min-width: 730px) {
+  .nav,
+  .viewall {
+    display: block;
+    margin-bottom: 1em;
+  }
+  .nav li {
+    list-style: none;
+    float: left;
+    padding-right: 3.18em;
+  }
+  .nav-rt,
+  .logo {
+    display: block;
+  }
+  .nav-rt li {
+    list-style: none;
+    float: left;
+    padding-left: 3.18em;
+    display: block;
+  }
+  .mobile-nav {
     visibility: hidden;
   }
-
-.viewall li {list-style: none;}
-.viewall-button { padding-bottom: .5em; border-bottom: 1px solid #000;}
-  .mobile-header{
+  .viewall li {
+    list-style: none;
+  }
+  .viewall-button {
+    padding-bottom: .5em;
+    border-bottom: 1px solid #000;
+  }
+  .mobile-header {
     display: none;
   }
 }
-
 
 
 
