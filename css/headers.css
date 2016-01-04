@@ -419,8 +419,8 @@
 @media (min-width: 550px) {  
 .header_newbalance{
     width: 100%;
-    height: 45em;
     background: url('../images/newbalance/header.jpg') rgb(222, 222, 222);
+    height: 80vh;
     background-size: cover;
     background-position: center center;
     }}
