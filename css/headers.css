@@ -561,47 +561,47 @@
 }}
 
 
-/* Zepp
+/* Unvael
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.header_zepp {
+.header_unvael {
     width: 100%;
     height: 20em;
-    background: url('../images/zepp/header.jpg') rgb(222, 222, 222);
+    background: url('../images/unvael/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
 }
 
 @media (min-width: 550px) {  
-.header_zepp{
+.header_unvael{
     width: 100%;
     height: 45em;
-    background: url('../images/zepp/header.jpg') rgb(222, 222, 222);
+    background: url('../images/unvael/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
 }}
 
-.footerz_zepp {
+.footerz_unvael {
     z-index: -1;
     width: 100%;
     height: 15em;
-    background: url(../images/zepp/header.jpg);
+    background: url(../images/unvael/header.jpg);
     background-size: cover;
     background-position: center center;
 }
 
 @media (min-width: 550px) {  
-.footerz_zepp {
+.footerz_unvael {
     z-index: -1;
     width: 100%;
     height: 20em;
-    background: url(../images/zepp/header.jpg);
+    background: url(../images/unvael/header.jpg);
     background-size: cover;
     background-position: center center;
 }}
 
 @media (min-width: 550px) {  
-.footerz_zepp:hover .fade{
+.footerz_unvael:hover .fade{
     z-index: 1;
     position: relative;
     width: 100%;
@@ -976,44 +976,44 @@
 /* Rare Glaze
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.header_rareglaze {
+.header_geoaday {
     width: 100%;
     height: 20em;
-    background: url('../images/rareglaze/header.jpg') rgb(222, 222, 222);
+    background: url('../images/geoaday/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
 }
 
 @media (min-width: 550px) {  
-.header_rareglaze{
+.header_geoaday{
     width: 100%;
     height: 45em;
-    background: url('../images/rareglaze/header.jpg') rgb(222, 222, 222);
+    background: url('../images/geoaday/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
 }}
 
-.footerz_rareglaze {
+.footerz_geoaday {
     z-index: -1;
     width: 100%;
     height: 15em;
-    background: url(../images/rareglaze/header.jpg);
+    background: url(../images/geoaday/header.jpg);
     background-size: cover;
     background-position: center center;
 }
 
 @media (min-width: 550px) {  
-.footerz_rareglaze {
+.footerz_geoaday {
     z-index: -1;
     width: 100%;
     height: 20em;
-    background: url(../images/rareglaze/header.jpg);
+    background: url(../images/geoaday/header.jpg);
     background-size: cover;
     background-position: center center;
 }}
 
 @media (min-width: 550px) {  
-.footerz_rareglaze:hover .fade{
+.footerz_geoaday:hover .fade{
     z-index: 1;
     position: relative;
     width: 100%;
