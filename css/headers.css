@@ -104,7 +104,7 @@
 @media (min-width: 550px) {  
 .header_swishswish {
     width: 100%;
-    height: 45em;
+    height: 75vh;
     background: url('../images/swishswish/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -157,7 +157,7 @@
 @media (min-width: 550px) {  
 .header_nikentc{
     width: 100%;
-    height: 45em;
+    height: 75vh;
     background: url('../images/nikentc/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -210,7 +210,7 @@
 @media (min-width: 550px) {  
 .header_hotpoints{
     width: 100%;
-    height: 45em;
+    height: 75vh;
     background: url('../images/hotpoints/header.png') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -263,7 +263,7 @@
 @media (min-width: 550px) {  
 .header_instagram{
     width: 100%;
-    height: 45em;
+    height: 75vh;
     background: url('../images/instagram/header.png') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -315,7 +315,7 @@
 @media (min-width: 550px) {  
 .header_dropboxpaper{
     width: 100%;
-    height: 45em;
+    height: 75vh;
     background: url('../images/dropboxpaper/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -367,7 +367,7 @@
 @media (min-width: 550px) {  
 .header_dropbox{
     width: 100%;
-    height: 45em;
+    height: 75vh;
     background: url('../images/dropbox/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -473,7 +473,7 @@
 @media (min-width: 550px) {  
 .header_wellwell{
     width: 100%;
-    height: 45em;
+    height: 75vh;
     background: url('../images/wellwell/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -524,7 +524,7 @@
 @media (min-width: 550px) {  
 .header_reveal{
     width: 100%;
-    height: 45em;
+    height: 75vh;
     background: url('../images/reveal/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -575,7 +575,7 @@
 @media (min-width: 550px) {  
 .header_unvael{
     width: 100%;
-    height: 45em;
+    height: 75vh;
     background: url('../images/unvael/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -626,7 +626,7 @@
 @media (min-width: 550px) {  
 .header_evolutionfresh{
     width: 100%;
-    height: 45em;
+    height: 75vh;
     background: url('../images/evolutionfresh/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -677,7 +677,7 @@
 @media (min-width: 550px) {  
 .header_chaoticmoon{
     width: 100%;
-    height: 45em;
+    height: 75vh;
     background: url('../images/chaoticmoon/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -730,7 +730,7 @@
 @media (min-width: 550px) {  
 .header_anicajonpaul{
     width: 100%;
-    height: 45em;
+    height: 75vh;
     background: url('../images/anicajonpaul/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -781,7 +781,7 @@
 @media (min-width: 550px) {  
 .header_color{
     width: 100%;
-    height: 45em;
+    height: 75vh;
     background: url('../images/color/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -833,7 +833,7 @@
 @media (min-width: 550px) {  
 .header_facebook{
     width: 100%;
-    height: 45em;
+    height: 75vh;
     background: url('../images/facebook/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -885,7 +885,7 @@
 @media (min-width: 550px) {  
 .header_foundobjects{
     width: 100%;
-    height: 45em;
+    height: 75vh;
     background: url('../images/foundobjects/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -936,7 +936,7 @@
 @media (min-width: 550px) {  
 .header_dbln{
     width: 100%;
-    height: 45em;
+    height: 75vh;
     background: url('../images/dbln/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -987,7 +987,7 @@
 @media (min-width: 550px) {  
 .header_geoaday{
     width: 100%;
-    height: 45em;
+    height: 75vh;
     background: url('../images/geoaday/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -1038,7 +1038,7 @@
 @media (min-width: 550px) {  
 .header_kelvin{
     width: 100%;
-    height: 45em;
+    height: 75vh;
     background: url('../images/kelvin/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -1089,7 +1089,7 @@
 @media (min-width: 550px) {  
 .header_annalemma{
     width: 100%;
-    height: 45em;
+    height: 75vh;
     background: url('../images/annalemma/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -1141,7 +1141,7 @@
 @media (min-width: 550px) {  
 .header_facebookhome{
     width: 100%;
-    height: 45em;
+    height: 75vh;
     background: url('../images/facebookhome/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -1192,7 +1192,7 @@
 @media (min-width: 550px) {  
 .header_chomp{
     width: 100%;
-    height: 45em;
+    height: 75vh;
     background: url('../images/chomp/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -1297,7 +1297,7 @@
 @media (min-width: 550px) {  
 .header_steventaylor{
     width: 100%;
-    height: 45em;
+    height: 75vh;
     background: url('../images/steventaylor/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -1339,7 +1339,7 @@
 @media (min-width: 550px) {  
 .header_olderbrother{
     width: 100%;
-    height: 45em;
+    height: 75vh;
     background: url('../images/olderbrother/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -1380,7 +1380,7 @@
 @media (min-width: 550px) {  
 .header_fiction{
     width: 100%;
-    height: 45em;
+    height: 75vh;
     background: url('../images/fiction/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -1421,7 +1421,7 @@
 @media (min-width: 550px) {  
 .header_fortune{
     width: 100%;
-    height: 45em;
+    height: 75vh;
     background: url('../images/fortune/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -1459,22 +1459,3 @@
 }}
 
 
-/* Facebook Home
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.header_facebookhome{
-    width: 100%;
-    height: 20em;
-    background: url('../images/facebookhome/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
-}
-
-@media (min-width: 550px) {  
-.header_facebookhome{
-    width: 100%;
-    height: 45em;
-    background: url('../images/facebookhome/header.jpg') rgb(222, 222, 222);
-    background-size: cover;
-    background-position: center center;
-    }}
