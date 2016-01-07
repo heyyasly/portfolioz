@@ -1244,7 +1244,7 @@
 @media (min-width: 550px) {  
 .header_facebookpaper{
     width: 100%;
-    height: 45em;
+    height: 75vh;
     background: url('../images/facebookpaper/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
