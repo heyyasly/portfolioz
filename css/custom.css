@@ -10,7 +10,7 @@ img {
 
 .logo {
   position: relative;
-  max-width: 2.5em;
+  max-width: 1.5em;
 }
 
 
@@ -33,7 +33,7 @@ a:hover {
 }
 
 a img:hover {
-  opacity: .8;
+  opacity: .25;
 }
 
 .nav a:hover {
@@ -66,7 +66,7 @@ a img:hover {
 
 
 #home {
-    margin-top: 2.5em;
+    margin-top: 1.25em;
 }
 
 
@@ -88,13 +88,17 @@ a img:hover {
     display: none;
 }
 
+.nav-rt  { 
+    height: 4em;
+}
+
 .nav-rt li  { 
-    list-style: none; 
-    float:left; 
-    padding-left: 3.18em;
     display: none;
 }
 
+.nav-rt li:hover  { 
+    opacity: .25;
+}
 
 
 .nav li,  .viewall li  {
@@ -109,7 +113,7 @@ a img:hover {
   width: 32px;
   position: absolute;
   top: 20px;
-  left: 20px;
+  left: 5%;
   transition: all .15s cubic-bezier(.25,.1,.25,1);
 }
 .mobile-header{
@@ -126,18 +130,18 @@ a img:hover {
     background: url('../images/burger.svg');
     position: absolute;
     top: 25px;
-    right: 20px;
+    right: 5%;
     cursor: pointer;
     background-repeat: no-repeat;
     background-size: contain;
 }
 .mobile-tag{
-  width: 24px;
+    width: 24px;
     position: absolute;
-    bottom: 20px;
-    left: 20px;
-      transform: translateX(-46px);
-  transition: all .15s cubic-bezier(.25,.1,.25,1);
+    bottom: 4%;
+    left: 5%;
+    transform: translateX(-80px);
+    transition: all .15s cubic-bezier(.25,.1,.25,1);
 }
 .mobile-nav{
   width: 100vw;
@@ -160,6 +164,17 @@ body.nav-open .container{
   transform: translateX(-100%);
   opacity: 0;
 }
+
+body.nav-open .container_header{
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+body.nav-open .container_footer{
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
 body.nav-open .mobile-nav{
   display: block;
 }
@@ -169,9 +184,10 @@ body.nav-open .mobile-nav li{
 body.nav-open .mobile-tag{
    transform:translateX(0px); 
 }
-.container{
+.container, .container_header, .container_footer {
   transition: all .15s cubic-bezier(.25,.1,.25,1);
 }
+
 .mobile-nav h4 {
     padding: 0;
     margin: 0 0 25px;
@@ -215,7 +231,7 @@ body.nav-open .mobile-toggle{
     top: 2px;
     right: 0;
 }
-@media (min-width: 730px) {
+@media (min-width: 680px) {
   .nav,
   .viewall {
     display: block;
@@ -224,7 +240,7 @@ body.nav-open .mobile-toggle{
   .nav li {
     list-style: none;
     float: left;
-    padding-right: 3.18em;
+    padding-right: 3em;
   }
   .nav-rt,
   .logo {
@@ -233,7 +249,9 @@ body.nav-open .mobile-toggle{
   .nav-rt li {
     list-style: none;
     float: left;
-    padding-left: 3.18em;
+    font-size: .75em;
+    padding-left: 3em;
+    margin-top: -.25em;
     display: block;
   }
   .mobile-nav {
@@ -288,7 +306,7 @@ body.work .four.columns{
 
 @media (min-width: 550px) {    
 .work-sort {
-    margin-top: 2em;
+    margin-top: 1em;
     margin-bottom: 2em;
 }}
 
