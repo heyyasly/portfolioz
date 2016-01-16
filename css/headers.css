@@ -1490,4 +1490,55 @@
     text-align: center;
 }}
 
+/* Grain and Gram
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header_grainandgram{
+    width: 100%;
+    height: 20em;
+    background: url('../images/grainandgram/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.header_grainandgram{
+    width: 100%;
+    height: 75vh;
+    background: url('../images/grainandgram/header.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}}
+
+.footerz_grainandgram {
+    z-index: -1;
+    width: 100%;
+    height: 15em;
+    background: url(../images/grainandgram/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+@media (min-width: 550px) {  
+.footerz_grainandgram {
+    z-index: -1;
+    width: 100%;
+    height: 20em;
+    background: url(../images/grainandgram/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}}
+
+@media (min-width: 550px) {  
+.footerz_grainandgram:hover .fade{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .1;
+    text-align: center;
+}}
+
 

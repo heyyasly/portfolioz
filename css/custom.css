@@ -46,22 +46,24 @@ a img:hover {
     color: #000;
     padding-bottom: .5em;
     border-bottom: 1px solid #000;
-}}
+}
 
 
 /* Construction Elements
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.intro {
-    margin-top: 5em;
-    margin-bottom: 1em;
+#intro {
+    margin-top: 2.5em;
+    margin-bottom: 2em;
+    width: 90%;
 }
 
 
 @media (min-width: 550px) { 
-.intro {
-    margin-top: 5em;
-    margin-bottom: 4em;
+#intro {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 100%;    
 }}
 
 
@@ -342,7 +344,7 @@ body.work .four.columns{
 }
 
 .text_desc {
-    margin-bottom: 5em;
+    margin-bottom: 2.5em;
 }
 
 .archives li{
