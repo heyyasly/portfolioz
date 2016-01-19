@@ -368,4 +368,6 @@ body.work .four.columns{
 }
 
 
-
+img .colophon {
+  clip-path: circle(100px at center);
+}
