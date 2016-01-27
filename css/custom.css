@@ -382,3 +382,8 @@ hr {
     border: 2;
     height: 2px;
 }
+
+#superfooter{
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
