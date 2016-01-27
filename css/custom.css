@@ -71,6 +71,9 @@ a img:hover {
     margin-top: 1.25em;
 }
 
+#featured img{
+    margin-bottom: 2em;
+}
 
 /* Larger than phablet */
 @media (min-width: 550px) {    
