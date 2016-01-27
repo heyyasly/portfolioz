@@ -371,3 +371,14 @@ body.work .four.columns{
 img .colophon {
   clip-path: circle(100px at center);
 }
+
+.colophon_title{
+    font-size: 1.45em;
+    font-weight: 100;
+}
+
+hr {
+    color: #000;
+    border: 2;
+    height: 2px;
+}

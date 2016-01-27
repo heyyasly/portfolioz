@@ -1541,4 +1541,26 @@
     text-align: center;
 }}
 
+/* About
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header_about{
+    width: 100%;
+    height: 20em;
+    background: url('../images/yaslyz.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 550px) {  
+.header_about{
+    width: 100%;
+    height: 75vh;
+    background: url('../images/yaslyz.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-position: center center;
+}}
+
+
+
 
