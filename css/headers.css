@@ -14,7 +14,7 @@
 .footerz {
     z-index: -1;
     width: 100%;
-    height: 20em;
+    height: 25em;
     background-size: cover;
     background-position: center center;
 }}
@@ -42,6 +42,7 @@
     }}
 
 
+/*
 .footerz_title{
     z-index: 2;
     position: absolute;
@@ -52,6 +53,27 @@
     opacity: 1;
     top: 30%;
     margin: auto;
+}
+*/
+
+
+
+.footerz_title{
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    line-height: 1.5em;
+    color: #fff;
+    background-color: transparent;
+    opacity: 1;
+    top: 35%;
+    margin: auto;    
+    text-align: center;
+    font-size: 0.7em;
+    letter-spacing: .5em;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Proxima Nova";
 }
 
 .footerz_project{
@@ -65,7 +87,7 @@
     top: 40%;
     margin: auto;
     margin-top: .25em;
-    font-size: 2.1em;
+    font-size: 2.5em;
     font-weight: 300;
 }
 
@@ -95,7 +117,7 @@
 
 .header_swishswish{
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url('../images/swishswish/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -124,7 +146,7 @@
 .footerz_swishswish {
     z-index: -1;
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url(../images/swishswish/header.jpg);
     background-size: cover;
     background-position: center center;
@@ -148,7 +170,7 @@
 
 .header_nikentc{
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url('../images/nikentc/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -177,7 +199,7 @@
 .footerz_nikentc {
     z-index: -1;
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url(../images/nikentc/header.jpg);
     background-size: cover;
     background-position: center center;
@@ -201,7 +223,7 @@
 
 .header_hotpoints{
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url('../images/hotpoints/header.png') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -230,7 +252,7 @@
 .footerz_hotpoints {
     z-index: -1;
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url(../images/hotpoints/header.png);
     background-size: cover;
     background-position: center center;
@@ -254,7 +276,7 @@
 
 .header_instagram{
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url('../images/instagram/header.png') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -283,7 +305,7 @@
 .footerz_instagram {
     z-index: -1;
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url(../images/instagram/header.png);
     background-size: cover;
     background-position: center center;
@@ -306,7 +328,7 @@
 
 .header_dropboxpaper{
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url('../images/dropboxpaper/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -335,7 +357,7 @@
 .footerz_dropboxpaper {
     z-index: -1;
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url(../images/dropboxpaper/header.jpg);
     background-size: cover;
     background-position: center center;
@@ -358,7 +380,7 @@
 
 .header_dropbox{
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url('../images/dropbox/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -387,7 +409,7 @@
 .footerz_dropbox {
     z-index: -1;
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url(../images/dropbox/header.jpg);
     background-size: cover;
     background-position: center center;
@@ -410,7 +432,7 @@
 
 .header_newbalance{
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url('../images/newbalance/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -439,7 +461,7 @@
 .footerz_newbalance {
     z-index: -1;
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url(../images/newbalance/header.jpg);
     background-size: cover;
     background-position: center center;
@@ -464,7 +486,7 @@
 
 .header_wellwell {
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url('../images/wellwell/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -492,7 +514,7 @@
 .footerz_wellwell {
     z-index: -1;
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url(../images/wellwell/header.jpg);
     background-size: cover;
     background-position: center center;
@@ -515,7 +537,7 @@
 
 .header_reveal {
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url('../images/reveal/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -543,7 +565,7 @@
 .footerz_reveal {
     z-index: -1;
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url(../images/reveal/header.jpg);
     background-size: cover;
     background-position: center center;
@@ -566,7 +588,7 @@
 
 .header_unvael {
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url('../images/unvael/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -594,7 +616,7 @@
 .footerz_unvael {
     z-index: -1;
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url(../images/unvael/header.jpg);
     background-size: cover;
     background-position: center center;
@@ -617,7 +639,7 @@
 
 .header_evolutionfresh {
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url('../images/evolutionfresh/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -645,7 +667,7 @@
 .footerz_evolutionfresh {
     z-index: -1;
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url(../images/evolutionfresh/header.jpg);
     background-size: cover;
     background-position: center center;
@@ -668,7 +690,7 @@
 
 .header_chaoticmoon {
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url('../images/chaoticmoon/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -696,7 +718,7 @@
 .footerz_chaoticmoon {
     z-index: -1;
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url(../images/chaoticmoon/header.jpg);
     background-size: cover;
     background-position: center center;
@@ -721,7 +743,7 @@
 
 .header_anicajonpaul {
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url('../images/anicajonpaul/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -749,7 +771,7 @@
 .footerz_anicajonpaul {
     z-index: -1;
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url(../images/anicajonpaul/header.jpg);
     background-size: cover;
     background-position: center center;
@@ -772,7 +794,7 @@
 
 .header_color {
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url('../images/color/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -800,7 +822,7 @@
 .footerz_color {
     z-index: -1;
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url(../images/color/header.jpg);
     background-size: cover;
     background-position: center center;
@@ -824,7 +846,7 @@
 
 .header_facebook {
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url('../images/facebook/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -852,7 +874,7 @@
 .footerz_facebook {
     z-index: -1;
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url(../images/facebook/header.jpg);
     background-size: cover;
     background-position: center center;
@@ -876,7 +898,7 @@
 
 .header_foundobjects {
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url('../images/foundobjects/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -904,7 +926,7 @@
 .footerz_foundobjects {
     z-index: -1;
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url(../images/foundobjects/header.jpg);
     background-size: cover;
     background-position: center center;
@@ -927,7 +949,7 @@
 
 .header_dbln {
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url('../images/dbln/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -955,7 +977,7 @@
 .footerz_dbln {
     z-index: -1;
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url(../images/dbln/header.jpg);
     background-size: cover;
     background-position: center center;
@@ -978,7 +1000,7 @@
 
 .header_geoaday {
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url('../images/geoaday/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -1006,7 +1028,7 @@
 .footerz_geoaday {
     z-index: -1;
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url(../images/geoaday/header.jpg);
     background-size: cover;
     background-position: center center;
@@ -1029,7 +1051,7 @@
 
 .header_kelvin {
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url('../images/kelvin/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -1057,7 +1079,7 @@
 .footerz_kelvin {
     z-index: -1;
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url(../images/kelvin/header.jpg);
     background-size: cover;
     background-position: center center;
@@ -1080,7 +1102,7 @@
 
 .header_annalemma {
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url('../images/annalemma/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -1108,7 +1130,7 @@
 .footerz_annalemma {
     z-index: -1;
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url(../images/annalemma/header.jpg);
     background-size: cover;
     background-position: center center;
@@ -1132,7 +1154,7 @@
 
 .header_facebookhome {
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url('../images/facebookhome/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -1160,7 +1182,7 @@
 .footerz_facebookhome {
     z-index: -1;
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url(../images/facebookhome/header.jpg);
     background-size: cover;
     background-position: center center;
@@ -1183,7 +1205,7 @@
 
 .header_chomp{
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url('../images/chomp/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -1211,7 +1233,7 @@
 .footerz_chomp {
     z-index: -1;
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url(../images/chomp/header.jpg);
     background-size: cover;
     background-position: center center;
@@ -1235,7 +1257,7 @@
 
 .header_facebookpaper {
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url('../images/facebookpaper/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -1263,7 +1285,7 @@
 .footerz_facebookpaper {
     z-index: -1;
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url(../images/facebookpaper/header.jpg);
     background-size: cover;
     background-position: center center;
@@ -1288,7 +1310,7 @@
 
 .header_steventaylor{
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url('../images/steventaylor/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -1317,7 +1339,7 @@
 .footerz_steventaylor {
     z-index: -1;
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url(../images/steventaylor/header.jpg);
     background-size: cover;
     background-position: center center;
@@ -1341,7 +1363,7 @@
 
 .header_olderbrother{
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url('../images/olderbrother/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -1370,7 +1392,7 @@
 .footerz_olderbrother {
     z-index: -1;
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url(../images/olderbrother/header.jpg);
     background-size: cover;
     background-position: center center;
@@ -1392,7 +1414,7 @@
 
 .header_fiction{
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url('../images/fiction/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -1421,7 +1443,7 @@
 .footerz_fiction {
     z-index: -1;
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url(../images/fiction/header.jpg);
     background-size: cover;
     background-position: center center;
@@ -1444,7 +1466,7 @@
 
 .header_fortune{
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url('../images/fortune/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -1473,7 +1495,7 @@
 .footerz_fortune {
     z-index: -1;
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url(../images/fortune/header.jpg);
     background-size: cover;
     background-position: center center;
@@ -1495,7 +1517,7 @@
 
 .header_grainandgram{
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url('../images/grainandgram/header.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-position: center center;
@@ -1524,7 +1546,7 @@
 .footerz_grainandgram {
     z-index: -1;
     width: 100%;
-    height: 20em;
+    height: 25em;
     background: url(../images/grainandgram/header.jpg);
     background-size: cover;
     background-position: center center;
@@ -1541,25 +1563,59 @@
     text-align: center;
 }}
 
-/* About
+
+/* About 
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .header_about{
     width: 100%;
-    height: 20em;
-    background: url('../images/yaslyz.jpg') rgb(222, 222, 222);
+    height: 35vh;
+    background: url('/images/yaslyzz.jpg') rgb(222, 222, 222);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center center;
+    background-color: #fff;
+    margin-top: 3em;
+    padding-top: 14em;
 }
 
 @media (min-width: 550px) {  
 .header_about{
+    height: 45vh;
     width: 100%;
-    height: 75vh;
-    background: url('../images/yaslyz.jpg') rgb(222, 222, 222);
+    background: url('/images/yaslyzz.jpg') rgb(222, 222, 222);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center center;
+    background-color: #fff;
+    margin-top: -4em;
+    padding-top: 24em;
 }}
+
+
+/* Splashy 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#splashy{
+    height: 100vh;
+    background: url('/images/_home/splash.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #e8e4e6;
+}
+
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+#splashy{
+    background: url('/images/_home/splash.jpg') rgb(222, 222, 222);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #e8e4e6;
+    }}
+
 
 
 

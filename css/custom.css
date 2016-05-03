@@ -18,11 +18,64 @@ strong{
     font-weight:600;
 }
 
+.workz h4 {
+    text-align: center;
+    padding-bottom: .5em;
+    margin-top: 2.75em;
+}
+
+
+
+/* Form Swag
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+label {
+    font-weight: 100;
+    text-align: left;
+}
+
+
+form {
+    width: 100%;
+}
+
+input {
+     width: 100%;   
+}
+
+textarea {
+    resize: vertical;
+    overflow: auto;
+    width: 100%;
+    height: 10em;
+}
+
+.contact_button {
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background: #fff;
+    color: #000;
+    font-size: 1.2em;
+    line-height: 1.6;
+    height: 2.75em;
+    border: 1px solid #000;
+    padding: 1em 0 1em 0;
+    height: 2em;
+    text-align: center;
+}
+
+
+.contact_button:hover {
+    background: #000;
+    color: #fff;
+    border: 1px solid #000;
+}
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #000000;
+  color: #000;
   text-decoration: none;
 }
 
@@ -111,24 +164,39 @@ a img:hover {
 }
 
 .nav-rt, .logo{
-  display: none;
+    display: none;
 }
 
 .mobile-logo{
-  width: 32px;
-  position: absolute;
-  top: 20px;
-  left: 5%;
-  transition: all .15s cubic-bezier(.25,.1,.25,1);
+    width: 32px;
+    position: absolute;
+    top: 20px;
+    left: 5%;
+    transition: all .15s cubic-bezier(.25,.1,.25,1);
 }
+
 .mobile-header{
-  width: 100%;
-  height: 70px;
-  background: white;
-  position: fixed;
-      top: 0;
+    width: 100%;
+    height: 70px;
+    background: #ffffff;
+    position: fixed;
+    top: 0;
     z-index: 10;
 }
+
+@media (min-width: 550px) {  
+.mobile-header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}}
+
+.mobile-header-splash {
+    background-color: transparent;
+}
+
 .mobile-toggle{
     width: 24px;
     height: 17px;
@@ -152,7 +220,7 @@ a img:hover {
   width: 100vw;
     height: 100vh;
     visibility: visible;
-  display: block;
+    display: block;
     position: fixed;
 }
 .mobile-nav ul{
@@ -162,6 +230,7 @@ a img:hover {
     margin-top: 50px;
     font-size: 20px;
 }
+
 body.nav-open{
   overflow: hidden;
 }
@@ -286,17 +355,72 @@ body.nav-open .mobile-toggle{
 body.work .four.columns{
     transition: opacity .15s ease;
 }
+
 .work-thumb {
     margin-top: .5em;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.414em;
+    margin-bottom: 0.2em;
 }
 
 /* Larger than phablet */
 @media (min-width: 550px) {    
 .work-thumb {
     text-align: left;
+    font-size: 1.2em;
+    margin-bottom: 0.45em;   
     }}
+
+
+.work-thumb-desc {
+    margin-top: 0em;
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 1.8em;
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {    
+.work-thumb-desc {
+    text-align: left;
+    }}
+
+
+.text_work_head {
+    text-align: center;
+    margin-bottom: 1.4em;
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {    
+.text_work_head {
+    }}
+
+.work-categoryz {
+    text-align: center;
+    font-size: 0.618em;
+    letter-spacing: .2em;
+    line-height: 11.86px;
+    font-weight: 600;
+    margin-bottom: 7em;
+    margin-top: 0em;
+    text-transform: uppercase;
+    font-family: "Proxima Nova"
+}
+    
+/* Larger than phablet */
+@media (min-width: 550px) {   
+.work-categoryz {
+    text-align: left;
+    font-size: 0.618em;
+    letter-spacing: .2em;
+    line-height: 11.86px;
+    font-weight: 600;
+    margin-bottom: 7em;
+    margin-top: 0em;
+
+}}
+
 
 .work-sort {
     text-align: right;   
@@ -344,11 +468,79 @@ body.work .four.columns{
     font-weight: 600;
     margin-bottom: .8em;
     text-transform: uppercase;
+    font-family: "Proxima Nova";
+    text-align: center;
 }
 
+
+
 .text_desc {
-    margin-bottom: 2.5em;
+    margin-bottom: 4em;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    text-align: center;
 }
+
+
+#superfooter .text_desc {
+    margin-bottom: 4em;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    text-align: center;
+}
+
+
+@media (min-width: 550px) {
+#superfooter .text_desc {
+    margin-bottom: 4em;
+    font-size: 1em;
+    line-height: 1.4em;
+    text-align: left;
+}}
+
+
+#superfooter .text_desc_title {
+    font-size: 0.618em;
+    letter-spacing: .2em;
+    line-height: 11.86px;
+    font-weight: 600;
+    margin-bottom: .8em;
+    text-transform: uppercase;
+    font-family: "Proxima Nova";
+    text-align: center;
+}
+
+
+@media (min-width: 550px) {
+#superfooter .text_desc_title {
+    font-size: 0.618em;
+    letter-spacing: .2em;
+    line-height: 11.86px;
+    font-weight: 600;
+    margin-bottom: .8em;
+    text-transform: uppercase;
+    font-family: "Proxima Nova";
+    text-align: left;
+}}
+
+
+.project_hr {
+    display: none;
+}
+
+
+@media (min-width: 550px) {
+.project_hr {
+    display: block;
+    border-top: 1px solid #000;
+    }}
+
+.project_metaz {
+    text-align: center;
+    padding-bottom: 2em;
+    padding-top: 1em;
+}
+
 
 .archives li{
     margin-bottom: .1em;
@@ -364,6 +556,16 @@ body.work .four.columns{
 .archives a:hover{
     border-bottom: 1px solid #000;
 }}
+
+
+.workz {
+    margin-top: 3em;
+}
+
+@media (min-width: 550px) {
+.workz {
+    margin-top: 0em;
+    }}
 
 
 .workz img {
@@ -390,3 +592,72 @@ hr {
     margin-top: 4em;
     margin-bottom: 2em;
 }
+
+.about_title {
+    text-align: center;
+}
+
+
+.home_title  {
+    width: 90%;
+    margin-top: 4em;
+    margin-bottom: 0em;
+}
+
+@media (min-width: 550px) {
+.home_title  {
+    margin-top: 6em;
+    margin-bottom: 0em;
+}}
+
+.home_title h3 {
+    text-align: left;
+    font-size: 2em;
+    padding-bottom: -5em;
+}
+
+@media (min-width: 550px) {
+.home_title h3 {
+    text-align: left;
+    font-size: 2.81em;
+}}
+
+
+.home_desc {
+    width: 90%;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
+@media (min-width: 375px) {
+.home_desc  {
+    width: 80%;
+    margin-top: 0;
+    padding-top: 0;
+}}
+
+@media (min-width: 550px) {
+.home_desc  {
+    margin-top: 0;
+    padding-top: 0;
+}}
+
+.home_desc h4 {
+    text-align: left;
+    font-size: 1.2em;
+    padding: 0;
+}
+
+@media (min-width: 375px) {
+.home_desc h4 {
+    text-align: left;
+    font-size: 1.6em;
+    }}
+
+
+@media (min-width: 550px) {
+.home_desc h4 {
+    text-align: left;
+    font-size: 2.1em;
+    }}
