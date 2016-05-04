@@ -1598,7 +1598,7 @@
 
 #splashy{
     height: 100vh;
-    background: url('/images/_home/splash.jpg') rgb(222, 222, 222);
+    background: url('/images/_home/splash_mobile.jpg') rgb(222, 222, 222);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
